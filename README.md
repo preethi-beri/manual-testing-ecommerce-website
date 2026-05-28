@@ -56,17 +56,29 @@ Automation workflow screenshots and testing outputs are included in the Screensh
 
 ## Project Structure
 
+```bash
 QA_Testing_Project/
 │
-├── automation_scripts
-├── Screenshots
-├── README.md
+├── automation_scripts/
+│   ├── login_test.py
+│   ├── cart_test.py
+│   └── logout_test.py
+│
+├── Screenshots/
+│   ├── login.png
+│   ├── cart.png
+│   ├── checkout.png
+│   └── products.png
+│
 ├── Test_Cases.xlsx
 ├── Bug_Report.xlsx
 ├── requirements.txt
 ├── index.html
 ├── style.css
-└── script.js
+├── script.js
+└── README.md
+```
+
 
 ## Author
 
